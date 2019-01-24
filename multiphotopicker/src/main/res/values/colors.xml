@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="LightSlateGrayTrans">#62778899</color>
+    <color name="orange">#FF7534</color>
+
+    <color name="appColor">#F80C06</color>
+    <color name="newAppColor">#001723</color>
+    <color name="appColorTrans_90">#5af80c06</color>
+    <color name="appColorTrans_150">#96f80c06</color>
+    <color name="appColorTrans_170">#aaf80c06</color>
+    <color name="appColorTrans_190">#bef80c06</color>
+
+    <color name="newAppColorTrans_170">#aa001723</color>
+</resources>

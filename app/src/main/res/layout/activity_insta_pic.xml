@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent"
+    tools:context="com.instapic.activities.InstaPicActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_shape_toolbar_view" />
+
+    <com.xiaopo.flying.sticker.StickerView
+        android:id="@+id/sticker_view"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:showBorder="true"
+        app:showIcons="true">
+
+        <FrameLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+            <!--android:background="@color/gray"-->
+
+            <FrameLayout
+                android:id="@+id/flSaveView"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imgShapeBackground" />
+                <!--app:srcCompat="@mipmap/ic_launcher"-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <FrameLayout
+                        android:id="@+id/shape_fmLayout"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:id="@+id/imgShapeEffect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/imgShapeEffect2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+                <!--app:srcCompat="@drawable/shape20"-->
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <include layout="@layout/layout_insta_pic_patterns_chooser"
+            android:id="@+id/layoutPatternChooser"
+            android:visibility="gone"/>
+
+        <include layout="@layout/layout_shapes_chooser_view"
+            android:id="@+id/layoutShapesChooserView"
+            android:visibility="visible"/>
+
+    </com.xiaopo.flying.sticker.StickerView>
+
+    <include layout="@layout/layout_shapes_footer_options" />
+
+</LinearLayout>

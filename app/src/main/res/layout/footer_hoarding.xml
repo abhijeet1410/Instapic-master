@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/llyFooter"
+    android:orientation="vertical"
+    android:background="@color/transprent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:background="@color/sub_header"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:id="@+id/llyFrame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/footer_icon"
+                android:layout_height="@dimen/footer_icon"
+                android:src="@drawable/btn_frame_bg" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:id="@+id/llyGallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="@dimen/footer_icon"
+                android:layout_height="@dimen/footer_icon"
+                android:src="@drawable/btn_gallery_bg" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llyKohli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/footer_icon"
+                android:layout_height="@dimen/footer_icon"
+                android:src="@drawable/btn_kohali_bg" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/footer_icon"
+                android:layout_height="@dimen/footer_icon"
+                android:src="@drawable/btn_text_effect_bg" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llySnicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/footer_icon"
+                android:layout_height="@dimen/footer_icon"
+                android:src="@drawable/btn_sticker_bg" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llyDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/footer_icon"
+                android:layout_height="@dimen/footer_icon"
+                android:src="@drawable/btn_done1_bg" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

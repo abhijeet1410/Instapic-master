@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rsmapps.selfieall">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <protected-broadcast android:name="android.intent.action.MEDIA_MOUNTED" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name=".activity.StartActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name=".activity.PhotoSelectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name=".activity.EffectsFilterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name=".activity.StickerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name=".activity.KohaliActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name=".activity.ImagePreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name=".activity.TextEffectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name=".activity.MyCreationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name=".activity.CreatedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name=".activity.PreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name=".activity.SlideActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <!-- <activity -->
+        <!-- android:name="crop.ResultActivity" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <!-- <activity -->
+        <!-- android:name="com.yalantis.ucrop.UCropActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/Theme.AppCompat.Light.NoActionBar" /> -->
+        <activity
+            android:name=".activity.SharingAndRateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name="libs.imageCropper.ImageCropperActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name="com.savedPhotos.activity.ShareActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name="com.savedPhotos.activity.SlideActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name="com.savedPhotos.activity.MyCreationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity-->
+            <!--android:name="com.collage.activity.CollageActivity"-->
+            <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+            <!--android:name="com.collage.activity.SelectGridTypeActivity"-->
+            <!--android:screenOrientation="portrait" />-->
+        <activity
+            android:name="com.mirror.activities.PhotoSelectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name="com.mirror.activities.MirrorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name="com.instapic.activities.InstaPicActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing"
+            android:theme="@style/SameFontTheme"/>
+        <activity
+            android:name="com.instapic.activities.PhotoSelectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+
+        <activity android:name="libs.imageBackgroundEraser.BackgroundEraserActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SameFontTheme"/>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

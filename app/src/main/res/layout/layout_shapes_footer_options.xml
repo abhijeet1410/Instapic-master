@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/appColor">
+    <!--android:background="@color/colorPrimaryDark"-->
+    <!--tools:showIn="@layout/activity_insta_pic"-->
+
+    <HorizontalScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical">
+
+            <include layout="@layout/layout_hr_space_20_dp" />
+            <LinearLayout
+                android:id="@+id/llShapesFrames"
+                android:layout_width="@dimen/insta_bottom_buttons_width"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:contentDescription="@string/todo"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/ic_frames" />
+
+                <TextView
+                    android:textSize="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Frames"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/insta_pic_footer_title_margin_top" />
+
+            </LinearLayout>
+            <include layout="@layout/layout_hr_space_20_dp" />
+            <LinearLayout
+            android:id="@+id/llShapesFilter"
+                android:layout_width="@dimen/insta_bottom_buttons_width"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:contentDescription="@string/todo"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/ic_filter_2"
+                    android:tint="@android:color/white"/>
+
+                <TextView
+                    android:textSize="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Filter"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/insta_pic_footer_title_margin_top" />
+
+            </LinearLayout>
+            <include layout="@layout/layout_hr_space_20_dp" />
+            <LinearLayout
+                android:id="@+id/llShapesStickers"
+                android:layout_width="@dimen/insta_bottom_buttons_width"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:contentDescription="@string/todo"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/ic_stickers" />
+
+                <TextView
+                    android:textSize="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stickers"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/insta_pic_footer_title_margin_top" />
+
+            </LinearLayout>
+            <include layout="@layout/layout_hr_space_20_dp" />
+            <LinearLayout
+                android:id="@+id/llShapesAddText"
+                android:layout_width="@dimen/insta_bottom_buttons_width"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:contentDescription="@string/todo"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/icon_addtext" />
+
+                <TextView
+                    android:textSize="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Text"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/insta_pic_footer_title_margin_top" />
+
+            </LinearLayout>
+            <include layout="@layout/layout_hr_space_20_dp" />
+            <LinearLayout
+                android:id="@+id/llShapeCrop"
+                android:layout_width="@dimen/insta_bottom_buttons_width"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:contentDescription="@string/todo"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/icon_crop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/insta_pic_footer_title_margin_top"
+                    android:text="Crop"
+                    android:textColor="@android:color/white"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+            <include layout="@layout/layout_hr_space_20_dp" />
+            <LinearLayout
+                android:id="@+id/llShapesForeground"
+                android:layout_width="@dimen/insta_bottom_buttons_width"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:contentDescription="@string/todo"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/icon_foreground" />
+
+                <TextView
+                    android:textSize="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Foreground"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/insta_pic_footer_title_margin_top" />
+
+            </LinearLayout>
+            <include layout="@layout/layout_hr_space_20_dp" />
+            <LinearLayout
+                android:id="@+id/llShapesBackgournd"
+                android:layout_width="@dimen/insta_bottom_buttons_width"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/icon_add_background_white" />
+
+                <TextView
+                    android:textSize="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Backgournd"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/insta_pic_footer_title_margin_top" />
+
+            </LinearLayout>
+            <include layout="@layout/layout_hr_space_20_dp" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/appColor"
+        android:orientation="vertical">
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/banner_adview_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_banner_id"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.AppBarLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="@color/header"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/llyEditTxt"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="@dimen/footer_icon_text_effect"
+            android:layout_height="@dimen/footer_icon_text_effect"
+            android:src="@drawable/btn_edit_text_bg" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyTxt"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="@dimen/footer_icon_text_effect"
+            android:layout_height="@dimen/footer_icon_text_effect"
+            android:src="@drawable/btn_text_font_bg" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyPaint"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="@dimen/footer_icon_text_effect"
+            android:layout_height="@dimen/footer_icon_text_effect"
+            android:src="@drawable/btn_paint_bg" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyTxtGlow"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="@dimen/footer_icon_text_effect"
+            android:layout_height="@dimen/footer_icon_text_effect"
+            android:src="@drawable/btn_text_grow_bg" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyBold"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="@dimen/footer_icon_text_effect"
+            android:layout_height="@dimen/footer_icon_text_effect"
+            android:src="@drawable/btn_bold_bg" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

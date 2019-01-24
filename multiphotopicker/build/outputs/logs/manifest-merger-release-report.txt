@@ -1,0 +1,67 @@
+-- Merging decision tree log ---
+manifest
+ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:2:1-19:12
+	package
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml
+		INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:2:1-19:12
+		INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:2:1-19:12
+		INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:6:22-78
+application
+ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:7:5-17:19
+	android:supportsRtl
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:13:9-40
+activity#com.nileshp.multiphotopicker.photopicker.activity.PickImageActivity
+ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:14:9-16:51
+	android:screenOrientation
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:16:13-49
+	android:theme
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:15:13-44
+	android:name
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml:14:19-73
+uses-sdk
+INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml
+INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml
+INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml
+INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml
+		INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml
+		ADDED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml
+		INJECTED from O:\RapidzzSolution\SelfieWithAllCleb\selfie-with-celebrity-new-app\Selfie with Celebrity\multiphotopicker\src\main\AndroidManifest.xml

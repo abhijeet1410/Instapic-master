@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alert_bg1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/llyFb"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="@dimen/footer_icon"
+            android:layout_height="@dimen/footer_icon"
+            android:src="@drawable/fb_bg" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facebook"
+            android:textSize="@dimen/footer_text"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyWhatsApp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="@dimen/footer_icon"
+            android:layout_height="@dimen/footer_icon"
+            android:src="@drawable/whatsapp_bg" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Whatsapp"
+            android:textSize="@dimen/footer_text"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyHike"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="@dimen/footer_icon"
+            android:layout_height="@dimen/footer_icon"
+            android:src="@drawable/hike_bg" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hike"
+            android:textSize="@dimen/footer_text"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyInstagram"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="@dimen/footer_icon"
+            android:layout_height="@dimen/footer_icon"
+            android:src="@drawable/instagram_bg" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instagram"
+            android:textSize="@dimen/footer_text"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyMore"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="@dimen/footer_icon"
+            android:layout_height="@dimen/footer_icon"
+            android:src="@drawable/more_bg" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More"
+            android:textSize="@dimen/footer_text"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

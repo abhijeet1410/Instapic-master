@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_alignParentBottom="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/black">
+
+        <TextView
+            android:id="@+id/tvGridsCancel"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:text="X"
+            android:textColor="@android:color/white"
+            android:background="@drawable/ripple_bg_black_96dp"
+            android:textSize="28sp"
+            android:gravity="center_horizontal|center_vertical"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:background="@android:color/white"
+            android:alpha="0.4"/>
+
+        <LinearLayout
+            android:id="@+id/llGridsShowAll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_bg_black_96dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Grids"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+
+            <ImageView
+                android:layout_width="@dimen/dimen_collage_icon_size_28_dp"
+                android:layout_height="@dimen/dimen_collage_icon_size_28_dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/collage"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:background="@android:color/white"
+            android:alpha="0.4"/>
+
+        <LinearLayout
+            android:id="@+id/llGridsShowShapes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_bg_black_96dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shapes"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+
+            <ImageView
+                android:layout_width="@dimen/dimen_collage_icon_size_28_dp"
+                android:layout_height="@dimen/dimen_collage_icon_size_28_dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/heart_btn"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvGrids"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/DarkSlateGray"/>
+
+</LinearLayout>

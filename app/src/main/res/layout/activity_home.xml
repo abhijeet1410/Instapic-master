@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorHomeBg">
+        <!--android:background="@drawable/home_activity_gradient_bg"-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/great_vibes"
+            android:gravity="center"
+            android:text="INSTAPIC"
+            android:textColor="@color/colorTextHome"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:baselineAligned="false"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="12dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ivInstaPic"
+                                android:layout_width="@dimen/home_icons_size"
+                                android:layout_height="@dimen/home_icons_size"
+                                android:contentDescription="@string/todo"
+                                android:src="@drawable/btn_ripple_insta_pic"
+                                android:layout_gravity="center"
+                                android:onClick="onClick"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="PIP Frames"
+                                android:fontFamily="serif"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="@android:color/black"
+                                android:layout_gravity="center"/>
+                            <!--android:text="Insta Pic"-->
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ivSavedPhotos"
+                                android:layout_width="@dimen/home_icons_size"
+                                android:layout_height="@dimen/home_icons_size"
+                                android:contentDescription="@string/todo"
+                                android:src="@drawable/btn_ripple_saved_pics"
+                                android:layout_gravity="center"
+                                android:onClick="onClick"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Saved Photos"
+                                android:fontFamily="serif"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="@android:color/black"
+                                android:layout_gravity="center"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ivRateApp"
+                                android:layout_width="@dimen/home_icons_size"
+                                android:layout_height="@dimen/home_icons_size"
+                                android:contentDescription="@string/todo"
+                                android:src="@drawable/btn_ripple_rate_app"
+                                android:layout_gravity="center"
+                                android:onClick="onClick"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rate this App"
+                                android:fontFamily="serif"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="@android:color/black"
+                                android:layout_gravity="center"/>
+
+                        </LinearLayout>
+
+
+
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:contentDescription="@string/todo"
+                            android:src="@drawable/selfi2"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="25dp"
+                            android:layout_marginRight="25dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/take_selfie_with_fav_celeb"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"
+                                android:gravity="center"/>
+
+                            <ImageView
+                                android:id="@+id/ivStartNow"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/todo"
+                                android:src="@drawable/btn_ripple_start_now"
+                                android:layout_gravity="center_horizontal"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:contentDescription="@string/todo"
+                            android:src="@drawable/collage_icon"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="25dp"
+                            android:layout_marginRight="25dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Photo Collage Editor"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"
+                                android:gravity="center"/>
+
+                            <ImageView
+                                android:id="@+id/ivPhotoCollageEditor"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/todo"
+                                android:src="@drawable/btn_ripple_rate_this_app"
+                                android:layout_gravity="center_horizontal"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:contentDescription="@string/todo"
+                            android:src="@drawable/sefie1"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="25dp"
+                            android:layout_marginRight="25dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/view_you_saved_selfie"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"
+                                android:gravity="center"/>
+
+                            <ImageView
+                                android:id="@+id/ivViewSavedPhotos"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/todo"
+                                android:src="@drawable/btn_ripple_view_photo"
+                                android:layout_gravity="center_horizontal"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:contentDescription="@string/todo"
+                            android:src="@drawable/like_icon"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="25dp"
+                            android:layout_marginRight="25dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rate_this_app"
+                                android:textColor="@color/black"
+                                android:textSize="15sp"
+                                android:gravity="center"/>
+
+                            <ImageView
+                                android:id="@+id/ivRateThisApp"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/todo"
+                                android:src="@drawable/btn_ripple_rate_this_app"
+                                android:layout_gravity="center_horizontal"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/home_activity_gradient_bg">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cvHomeAd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@android:color/white"
+                        app:cardCornerRadius="1dp"
+                        android:layout_margin="2dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ad"
+                            android:textSize="18sp"
+                            android:background="@color/selfieIconColor"
+                            android:textColor="@android:color/white"
+                            android:paddingTop="2dp"
+                            android:paddingStart="4dp"
+                            android:paddingEnd="4dp"
+                            android:paddingBottom="2dp"
+                            android:layout_gravity="end"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:contentDescription="@string/todo"
+                                android:src="@drawable/selfie3"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp">
+                                <!--android:layout_marginBottom="10dp"-->
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Photo Movie Maker"
+                                    android:textColor="#2c73ba"
+                                    android:textSize="24sp"
+                                    android:gravity="center"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/download_and_create_your_movie_in_seconds"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp"
+                                    android:gravity="center" />
+
+                                <ImageView
+                                    android:id="@+id/ivDownload"
+                                    android:layout_width="160dp"
+                                    android:layout_height="wrap_content"
+                                    android:contentDescription="@string/todo"
+                                    android:src="@drawable/btn_ripple_download"
+                                    android:layout_gravity="center_horizontal"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <!--android:background="@color/header"-->
+
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/banner_adview_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/admob_banner_id"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</layout>

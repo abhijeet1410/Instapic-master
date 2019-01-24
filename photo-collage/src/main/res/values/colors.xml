@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="red">#dd5347</color>
+    <color name="red2">#dd5347</color>
+    <color name="newAppColor">#001723</color>
+    <color name="DialogTitleColor">#F80C06</color>
+    <color name="AlertDialogButtonColor">#333232</color>
+    <color name="white">#fff</color>
+    <color name="AlertDialogBgColor">#404040</color>
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="DarkGray">#A9A9A9</color>
+    <color name="black">#000</color>
+    <color name="gray">#808080</color>
+    <color name="Red">#FF0000</color>
+    <color name="seekBarHint">#E57373</color>
+    <color name="seekBarBg">#dd5347</color>
+    <color name="header">#dd5347</color>
+    <color name="sub_header">#DCDCDC</color>
+    <color name="DarkSlateGray">#2F4F4F</color>
+</resources>

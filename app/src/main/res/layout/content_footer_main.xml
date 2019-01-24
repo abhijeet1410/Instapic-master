@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:background="@color/sub_header"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:background="@color/header">
+
+            <include layout="@layout/layout_divider_main_activity_bottom_bar" />
+
+            <LinearLayout
+                android:id="@+id/llyGallery"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="@dimen/footer_icon"
+                    android:layout_height="@dimen/footer_icon"
+                    android:src="@drawable/btn_gallery_bg" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_my_photo"
+                    android:textSize="@dimen/footer_text"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_divider_main_activity_bottom_bar" />
+
+            <LinearLayout
+                android:id="@+id/llyKohli"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="@dimen/footer_icon"
+                    android:layout_height="@dimen/footer_icon"
+                    android:src="@drawable/btn_kohali_bg" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kohali"
+                    android:textSize="@dimen/footer_text"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+            <include layout="@layout/layout_divider_main_activity_bottom_bar" />
+
+            <LinearLayout
+                android:id="@+id/llyEffect"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="@dimen/footer_icon"
+                    android:layout_height="@dimen/footer_icon"
+                    android:src="@drawable/btn_effect_bg" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_filter"
+                    android:textSize="@dimen/footer_text"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+            <include layout="@layout/layout_divider_main_activity_bottom_bar" />
+
+            <LinearLayout
+                android:id="@+id/llyText"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="@dimen/footer_icon"
+                    android:layout_height="@dimen/footer_icon"
+                    android:src="@drawable/btn_text_effect_bg" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text"
+                    android:textSize="@dimen/footer_text"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+            <include layout="@layout/layout_divider_main_activity_bottom_bar" />
+
+            <LinearLayout
+                android:id="@+id/llBackground"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="@dimen/footer_icon"
+                    android:layout_height="@dimen/footer_icon"
+                    android:src="@drawable/btn_background_bg" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_background"
+                    android:textSize="@dimen/footer_text"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+            <include layout="@layout/layout_divider_main_activity_bottom_bar" />
+
+            <LinearLayout
+                android:id="@+id/llBackgroundEraser"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="@dimen/footer_icon"
+                    android:layout_height="@dimen/footer_icon"
+                    android:src="@drawable/btn_eraser_bg" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_eraser"
+                    android:textSize="@dimen/footer_text"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+            <include layout="@layout/layout_divider_main_activity_bottom_bar" />
+
+            <LinearLayout
+                android:id="@+id/llySnicker"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="@dimen/footer_icon"
+                    android:layout_height="@dimen/footer_icon"
+                    android:src="@drawable/btn_sticker_bg" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stickers"
+                    android:textSize="@dimen/footer_text"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+            <include layout="@layout/layout_divider_main_activity_bottom_bar" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

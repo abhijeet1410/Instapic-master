@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:minWidth="320dp"
+    android:maxWidth="320dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_gravity="center_horizontal|center_vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:background="@drawable/alert_dialog_background">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog Title"
+            android:textSize="24sp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/DialogTitleColor"
+            android:drawablePadding="10dp"
+            android:padding="5dp"/>
+        <!--android:drawableStart="@android:drawable/stat_sys_warning"-->
+        <!--android:drawableLeft="@android:drawable/stat_sys_warning"-->
+        <!--android:background="@drawable/alert_dialog_title_background"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="description"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/tvSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="subtitle"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal|bottom"
+            android:layout_marginBottom="2dp">
+
+            <TextView
+                android:id="@+id/tvContinue"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Continue"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_alert_dialog_bg"
+                android:gravity="center" />
+            <!--android:drawableEnd="@drawable/save_btn_select"-->
+            <!--android:drawableRight="@drawable/save_btn_select"-->
+
+            <TextView
+                android:id="@+id/tvCancel"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_alert_dialog_bg"
+                android:gravity="center"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

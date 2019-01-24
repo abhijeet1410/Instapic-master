@@ -1,0 +1,1 @@
+include ':app', ':sticker', ':library', ':multiphotopicker', ':photo-collage'

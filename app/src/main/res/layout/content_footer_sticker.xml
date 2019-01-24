@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/sub_header"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/DimGray"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/llyText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgText"
+                android:layout_width="@dimen/footer_icon"
+                android:layout_height="@dimen/footer_icon"
+                android:src="@drawable/sticker_text_bg" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/text"
+                android:textColor="@color/white"
+                android:textSize="@dimen/footer_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llyStylish"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgStylish"
+                android:layout_width="@dimen/footer_icon"
+                android:layout_height="@dimen/footer_icon"
+                android:src="@drawable/sticker_stylish_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/stylish"
+                android:textColor="@color/white"
+                android:textSize="@dimen/footer_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llyLove"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgLove"
+                android:layout_width="@dimen/footer_icon"
+                android:layout_height="@dimen/footer_icon"
+                android:src="@drawable/sticker_love_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/love"
+                android:textColor="@color/white"
+                android:textSize="@dimen/footer_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llyAnimal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgAnimal"
+                android:layout_width="@dimen/footer_icon"
+                android:layout_height="@dimen/footer_icon"
+                android:src="@drawable/sticker_animal_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/animal"
+                android:textColor="@color/white"
+                android:textSize="@dimen/footer_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llyCartoon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgCartoon"
+                android:layout_width="@dimen/footer_icon"
+                android:layout_height="@dimen/footer_icon"
+                android:src="@drawable/sticker_cartoon_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/cartoon"
+                android:textColor="@color/white"
+                android:textSize="@dimen/footer_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llyEmoji"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgEmoji"
+                android:layout_width="@dimen/footer_icon"
+                android:layout_height="@dimen/footer_icon"
+                android:src="@drawable/sticker_emoji_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/emoticons"
+                android:textColor="@color/white"
+                android:textSize="@dimen/footer_text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

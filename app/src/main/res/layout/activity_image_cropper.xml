@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="libs.imageCropper.ImageCropperActivity"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="@dimen/icon_dimen_image_crop_activity"
+                android:layout_height="@dimen/icon_dimen_image_crop_activity"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/back_btn_bg"
+                android:padding="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="1dp"/>
+
+            <ImageView
+                android:id="@+id/ivRotate"
+                android:layout_width="@dimen/icon_dimen_image_crop_activity"
+                android:layout_height="@dimen/icon_dimen_image_crop_activity"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/flip_btn_bg"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"/>
+
+            <ImageView
+                android:id="@+id/ivFlip"
+                android:layout_width="@dimen/icon_dimen_image_crop_activity"
+                android:layout_height="@dimen/icon_dimen_image_crop_activity"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/fliped_btn_bg"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"/>
+
+            <TextView
+                android:id="@+id/tvCrop"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_dimen_image_crop_activity"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:background="@drawable/ripple_bg_black_96dp"
+                android:text="CROP"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"/>
+
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- Image Cropper fill the remaining available height -->
+    <com.theartofdev.edmodo.cropper.CropImageView
+        android:id="@+id/cropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+        <!--android:background="@color/appColor"-->
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/banner_adview_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_banner_id"/>
+
+    </LinearLayout>
+
+</LinearLayout>

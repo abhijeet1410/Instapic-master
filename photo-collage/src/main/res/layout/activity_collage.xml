@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.aligohershabir.photocollage.view.activity.CollageActivity"
+    android:background="@color/gray">
+
+    <include layout="@layout/layout_header_collage_activity" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.xiaopo.flying.sticker.StickerView
+            android:id="@+id/sticker_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:showBorder="true"
+            app:showIcons="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="100dp"
+            android:background="@android:color/white">
+
+            <RelativeLayout
+                android:id="@+id/rlMainCollageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray"
+                android:layout_margin="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/llRowLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/llGridRow1"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:baselineAligned="false">
+
+                            <FrameLayout
+                                android:id="@+id/flGridR1C1"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent" />
+
+                            <FrameLayout
+                                android:id="@+id/flGridR1C2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent" />
+
+                            <FrameLayout
+                                android:id="@+id/flGridR1C3"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llGridRow2"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:baselineAligned="false">
+
+                            <FrameLayout
+                                android:id="@+id/flGridR2C1"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent" />
+
+                            <FrameLayout
+                                android:id="@+id/flGridR2C2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent" />
+
+                            <FrameLayout
+                                android:id="@+id/flGridR2C3"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llGridRow3"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:baselineAligned="false">
+
+                            <FrameLayout
+                                android:id="@+id/flGridR3C1"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent" />
+
+                            <FrameLayout
+                                android:id="@+id/flGridR3C2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent" />
+
+                            <FrameLayout
+                                android:id="@+id/flGridR3C3"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/llColLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:baselineAligned="false">
+
+                        <LinearLayout
+                            android:id="@+id/llGridCol1"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:baselineAligned="false">
+
+                            <FrameLayout
+                                android:id="@+id/flGridC1R1"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <FrameLayout
+                                android:id="@+id/flGridC1R2"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="0dp" />
+
+                            <FrameLayout
+                                android:id="@+id/flGridC1R3"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="0dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llGridCol2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:baselineAligned="false">
+
+                            <FrameLayout
+                                android:id="@+id/flGridC2R1"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="0dp" />
+
+                            <FrameLayout
+                                android:id="@+id/flGridC2R2"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="0dp" />
+
+                            <FrameLayout
+                                android:id="@+id/flGridC2R3"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="0dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llGridCol3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:baselineAligned="false">
+
+                            <FrameLayout
+                                android:id="@+id/flGridC3R1"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="0dp" />
+
+                            <FrameLayout
+                                android:id="@+id/flGridC3R2"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="0dp" />
+
+                            <FrameLayout
+                                android:id="@+id/flGridC3R3"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="0dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/llGridRow4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal"
+                        android:baselineAligned="false">
+
+                        <FrameLayout
+                            android:id="@+id/flGridR4C1"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            tools:background="@android:color/holo_red_dark"/>
+
+                        <FrameLayout
+                            android:id="@+id/flGridR4C2"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            tools:background="@android:color/holo_red_light"/>
+
+                        <FrameLayout
+                            android:id="@+id/flGridR4C3"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            tools:background="@android:color/holo_green_light"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ivForeground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/desc_collage_frame" />
+
+            </RelativeLayout>
+
+        </com.xiaopo.flying.sticker.StickerView>
+
+        <include layout="@layout/layout_collage_background_chooser"
+            android:id="@+id/layoutBackgroundChooser"
+            android:visibility="gone"/>
+
+        <include layout="@layout/layout_collage_frame_chooser"
+            android:id="@+id/layoutFrameChooser"
+            android:visibility="gone"/>
+
+        <include layout="@layout/layout_collage_grid_chooser"
+            android:id="@+id/layoutGridChooser"
+            android:visibility="gone"/>
+
+        <include layout="@layout/layout_collage_shape_chooser"
+            android:id="@+id/layoutShapesChooser"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <include layout="@layout/layout_collage_footer" />
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.savedPhotos.activity.ShareActivity"
+    android:orientation="vertical"
+    android:background="@color/ColorShareActivityBg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Share"
+        android:background="@color/appColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textAllCaps="true"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/ivSelectedImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/todo"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"/>
+    <!--android:src="@mipmap/ic_launcher"-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share on..."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/appColor"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/ivShareWhatsApp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:contentDescription="@string/todo"
+            android:padding="5dp"
+            android:src="@drawable/whatsapp_bg" />
+
+        <ImageView
+            android:id="@+id/ivShareInstagram"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:contentDescription="@string/todo"
+            android:padding="5dp"
+            android:src="@drawable/instagram_bg" />
+
+        <ImageView
+            android:id="@+id/ivShareMore"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:contentDescription="@string/todo"
+            android:padding="5dp"
+            android:src="@drawable/more_bg" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llRateIt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/ripple_bg_app_color_96dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:src="@drawable/stars_bar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate it"
+            android:textStyle="italic"
+            android:fontFamily="serif"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="true"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/banner_adview_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_banner_id"/>
+
+    </LinearLayout>
+
+</LinearLayout>

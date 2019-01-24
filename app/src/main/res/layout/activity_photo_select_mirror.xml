@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColor"
+    android:orientation="vertical"
+    android:id="@+id/llBackground">
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:background="@color/header">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Medium"-->
+    <!--android:text="@string/app_name"-->
+    <!--android:textColor="@color/white" />-->
+
+    <!--</RelativeLayout>-->
+
+    <LinearLayout
+        android:background="@color/transprent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/mainLayoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/ablToolbar"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_horizontal|center_vertical">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Mirror Effects"
+                android:textAllCaps="true"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:background="@color/colorPrimary"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:visibility="gone"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/banner_adview_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_banner_id"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="65dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llyGallery"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/circle_bg">
+
+                <ImageView
+                    android:layout_width="@dimen/circle_witdth_height"
+                    android:layout_height="@dimen/circle_witdth_height"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/gallery" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gallery"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/circle_text" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llyCamera"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/circle_bg">
+
+                <ImageView
+                    android:layout_width="@dimen/circle_witdth_height"
+                    android:layout_height="@dimen/circle_witdth_height"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/camera" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/camera"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/circle_text" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/transprent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/banner_adview_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_banner_id"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

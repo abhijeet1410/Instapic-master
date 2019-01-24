@@ -1,0 +1,23 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+
+  <dimen name="footer_icon">32dp</dimen>
+  <dimen name="footer_text">8sp</dimen>
+  <dimen name="footer_icon_text_effect">40dp</dimen>
+
+  <dimen name="start_width">200dp</dimen>
+  <dimen name="start_height">60dp</dimen>
+
+
+  <dimen name="circle_witdth_height">40dp</dimen>
+  <dimen name="circle_text">12sp</dimen>
+    <dimen name="icon_dimen_image_crop_activity">30dp</dimen>
+    <dimen name="insta_pic_footer_title_margin_top">3dp</dimen>
+    <dimen name="dimen_collage_icon_size_28_dp">28dp</dimen>
+    <dimen name="insta_pic_color_card_elevation">7dp</dimen>
+    <dimen name="home_icons_size">70dp</dimen>
+    <dimen name="insta_bottom_buttons_width">85dp</dimen>
+
+</resources>

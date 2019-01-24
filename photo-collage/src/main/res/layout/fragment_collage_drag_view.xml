@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="2dp"
+    android:id="@+id/rlCollageFragment">
+
+    <FrameLayout
+        android:id="@+id/flMainDragView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <!--android:background="@mipmap/ic_launcher"-->
+
+    <ImageView
+        android:id="@+id/ivShapeForeground"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/todo" />
+    <!--app:srcCompat="@drawable/shape_octa_1"-->
+
+
+    <ImageView
+        android:id="@+id/ivShapeStroke"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/todo"
+        android:tint="@color/red" />
+    <!--app:srcCompat="@drawable/stroke_octa_1"-->
+
+</RelativeLayout>

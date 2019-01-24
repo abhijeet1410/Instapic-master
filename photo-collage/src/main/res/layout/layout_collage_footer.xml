@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/appColor">
+    <!--android:background="@color/colorPrimaryDark"-->
+    <!--tools:showIn="@layout/activity_shape"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:id="@+id/llCollageGrid"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:contentDescription="@string/todo"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/grid_btn_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grid"
+                android:textAllCaps="true"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/insta_pic_footer_title_margin_top" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llCollageShapes"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:contentDescription="@string/todo"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/shape_btn_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shapes"
+                android:textAllCaps="true"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/insta_pic_footer_title_margin_top" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llCollageBackgournd"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/background_btn_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Background"
+                android:textAllCaps="true"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/insta_pic_footer_title_margin_top" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llCollageFrames"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:contentDescription="@string/todo"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/frames_btn_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frames"
+                android:textSize="12sp"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/insta_pic_footer_title_margin_top" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.AppBarLayout>

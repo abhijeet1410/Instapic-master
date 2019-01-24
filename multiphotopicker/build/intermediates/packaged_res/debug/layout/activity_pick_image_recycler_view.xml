@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/tbPickImage"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                tools:title=""
+                android:background="@color/appColor">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical|end"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/txtTotalImage"
+                        android:layout_width="100dp"
+                        android:layout_height="32dp"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"
+                        android:padding="2dp"
+                        android:text="@string/text_images"
+                        android:textSize="16sp"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ffffffff"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/btnDone"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/piclist_selector_btn_done"
+                        android:gravity="center"
+                        android:textColor="#ffffffff"
+                        android:textSize="24sp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.Toolbar>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/imgBack"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@string/todo"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:padding="12dp"
+                    android:src="@drawable/back_btn_bg" />
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    tools:text="Select Photo"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    tools:ignore="RtlSymmetry"
+                    android:textColor="@android:color/white"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginLeft="6dp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvAlbums"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@android:color/white"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvListAlbum"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#dddddd"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="#dddddd">
+
+            <LinearLayout
+                android:id="@+id/layoutListItemSelect"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" />
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

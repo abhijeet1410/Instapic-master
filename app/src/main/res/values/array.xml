@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="style">
+         <item>Gray</item>
+        <item>Relief</item>
+        <item>Average blur</item>
+        <item>Oil painting</item>
+        <item>Neon</item>
+        <item>Pixelate</item>
+        <item>Old TV</item>
+        <item>Invert the colors</item>
+        <item>Block</item>
+        <item>old photo</item>
+        <item>sharpen</item>
+        <item>light</item>
+        <item>Lomo</item>
+        <item>HDR</item>
+        <item>gaussian blur</item>
+        <item>soft glow</item>
+        <item>sketch style</item>
+        <item>Motion blur</item>
+        <item>Gotham style</item>
+    </string-array>
+
+    <string-array name="save_format">
+        <item>PNG</item>
+        <item>JPEG</item>
+        <item>WEBP</item>
+    </string-array>
+
+    <string-array name="crop_shapes">
+        <item>Rectangle</item>
+        <item>Oval</item>
+    </string-array>
+
+    <string-array name="fonts">
+        <item>Blacklarch</item>
+        <item>Blessd</item>
+
+        <item>Fancy</item>
+        <item>Fon</item>
+        <item>Homestile</item>
+        <item>Personaluse</item>
+        <item>Smartwatch</item>
+
+    </string-array>
+
+</resources>

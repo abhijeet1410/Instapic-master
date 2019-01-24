@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tbPickImage"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            app:title="Select Photo">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|end"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/txtTotalImage"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:padding="2dp"
+                    android:text="@string/text_images"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#ffffffff"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/btnDone"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/piclist_selector_btn_done"
+                    android:textColor="#ffffffff"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <GridView
+            android:id="@+id/gridViewAlbum"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:numColumns="1"
+            android:stretchMode="columnWidth"
+            android:background="@android:color/white"/>
+
+        <GridView
+            android:id="@+id/gridViewListAlbum"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:numColumns="2"
+            android:stretchMode="columnWidth" />
+        <!--android:background="@android:color/white"-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#dddddd"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="#dddddd">
+
+            <LinearLayout
+                android:id="@+id/layoutListItemSelect"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" />
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

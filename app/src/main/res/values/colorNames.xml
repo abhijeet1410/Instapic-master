@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="White">#FFFFFF</color>-->
+    <!--<color name="Ivory">#FFFFF0</color>-->
+    <!--<color name="LightYellow">#FFFFE0</color>-->
+    <!--<color name="Yellow">#FFFF00</color>-->
+    <!--<color name="Snow">#FFFAFA</color>-->
+    <!--<color name="FloralWhite">#FFFAF0</color>-->
+    <!--<color name="LemonChiffon">#FFFACD</color>-->
+    <!--<color name="Cornsilk">#FFF8DC</color>-->
+    <!--<color name="Seashell">#FFF5EE</color>-->
+    <!--<color name="LavenderBlush">#FFF0F5</color>-->
+    <!--<color name="PapayaWhip">#FFEFD5</color>-->
+    <!--<color name="BlanchedAlmond">#FFEBCD</color>-->
+    <!--<color name="MistyRose">#FFE4E1</color>-->
+    <!--<color name="Bisque">#FFE4C4</color>-->
+    <!--<color name="Moccasin">#FFE4B5</color>-->
+    <!--<color name="NavajoWhite">#FFDEAD</color>-->
+    <!--<color name="PeachPuff">#FFDAB9</color>-->
+    <!--<color name="Gold">#FFD700</color>-->
+    <!--<color name="Pink">#FFC0CB</color>-->
+    <!--<color name="LightPink">#FFB6C1</color>-->
+    <!--<color name="Orange">#FFA500</color>-->
+    <!--<color name="LightSalmon">#FFA07A</color>-->
+    <!--<color name="DarkOrange">#FF8C00</color>-->
+
+    <color name="Coral">#FF7F50</color>
+    <color name="HotPink">#FF69B4</color>
+    <color name="Tomato">#FF6347</color>
+    <color name="OrangeRed">#FF4500</color>
+    <color name="White">#FFFFFF</color>
+    <color name="DeepPink">#FF1493</color>
+    <color name="Fuchsia">#FF00FF</color>
+    <color name="Magenta">#FF00FF</color>
+    <color name="Red">#FF0000</color>
+    <color name="OldLace">#FDF5E6</color>
+    <color name="LightGoldenrodYellow">#FAFAD2</color>
+    <color name="Linen">#FAF0E6</color>
+    <color name="AntiqueWhite">#FAEBD7</color>
+    <color name="Salmon">#FA8072</color>
+    <color name="GhostWhite">#F8F8FF</color>
+    <color name="MintCream">#F5FFFA</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="Beige">#F5F5DC</color>
+    <color name="Wheat">#F5DEB3</color>
+    <color name="SandyBrown">#F4A460</color>
+    <color name="Azure">#F0FFFF</color>
+    <color name="Honeydew">#F0FFF0</color>
+    <color name="AliceBlue">#F0F8FF</color>
+    <color name="Khaki">#F0E68C</color>
+    <color name="LightCoral">#F08080</color>
+    <color name="PaleGoldenrod">#EEE8AA</color>
+    <color name="Violet">#EE82EE</color>
+    <color name="DarkSalmon">#E9967A</color>
+    <color name="Lavender">#E6E6FA</color>
+    <color name="LightCyan">#E0FFFF</color>
+    <color name="BurlyWood">#DEB887</color>
+    <color name="Plum">#DDA0DD</color>
+    <color name="Gainsboro">#DCDCDC</color>
+    <color name="Crimson">#DC143C</color>
+    <color name="PaleVioletRed">#DB7093</color>
+    <color name="Goldenrod">#DAA520</color>
+    <color name="Orchid">#DA70D6</color>
+    <color name="Thistle">#D8BFD8</color>
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="Tan">#D2B48C</color>
+    <color name="Chocolate">#D2691E</color>
+    <color name="Peru">#CD853F</color>
+    <color name="IndianRed">#CD5C5C</color>
+    <color name="MediumVioletRed">#C71585</color>
+    <color name="Silver">#C0C0C0</color>
+    <color name="DarkKhaki">#BDB76B</color>
+    <color name="RosyBrown">#BC8F8F</color>
+    <color name="MediumOrchid">#BA55D3</color>
+    <color name="DarkGoldenrod">#B8860B</color>
+    <color name="FireBrick">#B22222</color>
+    <color name="PowderBlue">#B0E0E6</color>
+    <color name="LightSteelBlue">#B0C4DE</color>
+    <color name="PaleTurquoise">#AFEEEE</color>
+    <color name="GreenYellow">#ADFF2F</color>
+    <color name="LightBlue">#ADD8E6</color>
+    <color name="DarkGray">#A9A9A9</color>
+    <color name="Brown">#A52A2A</color>
+    <color name="Sienna">#A0522D</color>
+    <color name="YellowGreen">#9ACD32</color>
+    <color name="DarkOrchid">#9932CC</color>
+    <color name="PaleGreen">#98FB98</color>
+    <color name="DarkViolet">#9400D3</color>
+    <color name="MediumPurple">#9370DB</color>
+    <color name="LightGreen">#90EE90</color>
+    <color name="DarkSeaGreen">#8FBC8F</color>
+    <color name="SaddleBrown">#8B4513</color>
+    <color name="DarkMagenta">#8B008B</color>
+    <color name="DarkRed">#8B0000</color>
+    <color name="BlueViolet">#8A2BE2</color>
+    <color name="LightSkyBlue">#87CEFA</color>
+    <color name="SkyBlue">#87CEEB</color>
+    <color name="Gray">#808080</color>
+    <color name="Olive">#808000</color>
+    <color name="Purple">#800080</color>
+    <color name="Maroon">#800000</color>
+    <color name="Aquamarine">#7FFFD4</color>
+    <color name="Chartreuse">#7FFF00</color>
+    <color name="LawnGreen">#7CFC00</color>
+    <color name="MediumSlateBlue">#7B68EE</color>
+    <color name="LightSlateGray">#778899</color>
+    <color name="SlateGray">#708090</color>
+    <color name="OliveDrab">#6B8E23</color>
+    <color name="SlateBlue">#6A5ACD</color>
+    <color name="DimGray">#696969</color>
+    <color name="MediumAquamarine">#66CDAA</color>
+    <color name="CornflowerBlue">#6495ED</color>
+    <color name="CadetBlue">#5F9EA0</color>
+    <color name="DarkOliveGreen">#556B2F</color>
+    <color name="Indigo">#4B0082</color>
+    <color name="MediumTurquoise">#48D1CC</color>
+    <color name="DarkSlateBlue">#483D8B</color>
+    <color name="SteelBlue">#4682B4</color>
+    <color name="RoyalBlue">#4169E1</color>
+    <color name="Turquoise">#40E0D0</color>
+    <color name="MediumSeaGreen">#3CB371</color>
+    <color name="LimeGreen">#32CD32</color>
+    <color name="DarkSlateGray">#2F4F4F</color>
+    <color name="SeaGreen">#2E8B57</color>
+    <color name="ForestGreen">#228B22</color>
+    <color name="LightSeaGreen">#20B2AA</color>
+    <color name="DodgerBlue">#1E90FF</color>
+    <color name="MidnightBlue">#191970</color>
+    <color name="Aqua">#00FFFF</color>
+    <color name="Cyan">#00FFFF</color>
+    <color name="SpringGreen">#00FF7F</color>
+    <color name="Lime">#00FF00</color>
+    <color name="MediumSpringGreen">#00FA9A</color>
+    <color name="DarkTurquoise">#00CED1</color>
+    <color name="DeepSkyBlue">#00BFFF</color>
+    <color name="DarkCyan">#008B8B</color>
+    <color name="Teal">#008080</color>
+    <color name="Green">#008000</color>
+    <color name="DarkGreen">#006400</color>
+    <color name="Blue">#0000FF</color>
+    <color name="MediumBlue">#0000CD</color>
+    <color name="DarkBlue">#00008B</color>
+    <color name="Navy">#000080</color>
+    <color name="Black">#000000</color>
+
+    <array name="colors">
+        <!--<item name="White">@color/White</item>-->
+        <!--<item name="Ivory">@color/Ivory</item>-->
+        <!--<item name="LightYellow">@color/LightYellow</item>-->
+        <!--<item name="Yellow">@color/Yellow</item>-->
+        <!--<item name="Snow">@color/Snow</item>-->
+        <!--<item name="FloralWhite">@color/FloralWhite</item>-->
+        <!--<item name="LemonChiffon">@color/LemonChiffon</item>-->
+        <!--<item name="Cornsilk">@color/Cornsilk</item>-->
+        <!--<item name="Seashell">@color/Seashell</item>-->
+        <!--<item name="LavenderBlush">@color/LavenderBlush</item>-->
+        <!--<item name="PapayaWhip">@color/PapayaWhip</item>-->
+        <!--<item name="BlanchedAlmond">@color/BlanchedAlmond</item>-->
+        <!--<item name="MistyRose">@color/MistyRose</item>-->
+        <!--<item name="Bisque">@color/Bisque</item>-->
+        <!--<item name="Moccasin">@color/Moccasin</item>-->
+        <!--<item name="NavajoWhite">@color/NavajoWhite</item>-->
+        <!--<item name="PeachPuff">@color/PeachPuff</item>-->
+        <!--<item name="Gold">@color/Gold</item>-->
+        <!--<item name="Pink">@color/Pink</item>-->
+        <!--<item name="LightPink">@color/LightPink</item>-->
+        <!--<item name="Orange">@color/Orange</item>-->
+        <!--<item name="LightSalmon">@color/LightSalmon</item>-->
+        <!--<item name="DarkOrange">@color/DarkOrange</item>-->
+
+        <item name="Coral">@color/Coral</item>
+        <item name="HotPink">@color/HotPink</item>
+        <item name="Tomato">@color/Tomato</item>
+        <item name="OrangeRed">@color/OrangeRed</item>
+        <item name="White">@color/White</item>
+        <item name="DeepPink">@color/DeepPink</item>
+        <item name="Fuchsia">@color/Fuchsia</item>
+        <item name="Magenta">@color/Magenta</item>
+        <item name="Red">@color/Red</item>
+        <item name="OldLace">@color/OldLace</item>
+        <item name="LightGoldenrodYellow">@color/LightGoldenrodYellow</item>
+        <item name="Linen">@color/Linen</item>
+        <item name="AntiqueWhite">@color/AntiqueWhite</item>
+        <item name="Salmon">@color/Salmon</item>
+        <item name="GhostWhite">@color/GhostWhite</item>
+        <item name="MintCream">@color/MintCream</item>
+        <item name="WhiteSmoke">@color/WhiteSmoke</item>
+        <item name="Beige">@color/Beige</item>
+        <item name="Wheat">@color/Wheat</item>
+        <item name="SandyBrown">@color/SandyBrown</item>
+        <item name="Azure">@color/Azure</item>
+        <item name="Honeydew">@color/Honeydew</item>
+        <item name="AliceBlue">@color/AliceBlue</item>
+        <item name="Khaki">@color/Khaki</item>
+        <item name="LightCoral">@color/LightCoral</item>
+        <item name="PaleGoldenrod">@color/PaleGoldenrod</item>
+        <item name="Violet">@color/Violet</item>
+        <item name="DarkSalmon">@color/DarkSalmon</item>
+        <item name="Lavender">@color/Lavender</item>
+        <item name="LightCyan">@color/LightCyan</item>
+        <item name="BurlyWood">@color/BurlyWood</item>
+        <item name="Plum">@color/Plum</item>
+        <item name="Gainsboro">@color/Gainsboro</item>
+        <item name="Crimson">@color/Crimson</item>
+        <item name="PaleVioletRed">@color/PaleVioletRed</item>
+        <item name="Goldenrod">@color/Goldenrod</item>
+        <item name="Orchid">@color/Orchid</item>
+        <item name="Thistle">@color/Thistle</item>
+        <item name="LightGrey">@color/LightGrey</item>
+        <item name="Tan">@color/Tan</item>
+        <item name="Chocolate">@color/Chocolate</item>
+        <item name="Peru">@color/Peru</item>
+        <item name="IndianRed">@color/IndianRed</item>
+        <item name="MediumVioletRed">@color/MediumVioletRed</item>
+        <item name="Silver">@color/Silver</item>
+        <item name="DarkKhaki">@color/DarkKhaki</item>
+        <item name="RosyBrown">@color/RosyBrown</item>
+        <item name="MediumOrchid">@color/MediumOrchid</item>
+        <item name="DarkGoldenrod">@color/DarkGoldenrod</item>
+        <item name="FireBrick">@color/FireBrick</item>
+        <item name="PowderBlue">@color/PowderBlue</item>
+        <item name="LightSteelBlue">@color/LightSteelBlue</item>
+        <item name="PaleTurquoise">@color/PaleTurquoise</item>
+        <item name="GreenYellow">@color/GreenYellow</item>
+        <item name="LightBlue">@color/LightBlue</item>
+        <item name="DarkGray">@color/DarkGray</item>
+        <item name="Brown">@color/Brown</item>
+        <item name="Sienna">@color/Sienna</item>
+        <item name="YellowGreen">@color/YellowGreen</item>
+        <item name="DarkOrchid">@color/DarkOrchid</item>
+        <item name="PaleGreen">@color/PaleGreen</item>
+        <item name="DarkViolet">@color/DarkViolet</item>
+        <item name="MediumPurple">@color/MediumPurple</item>
+        <item name="LightGreen">@color/LightGreen</item>
+        <item name="DarkSeaGreen">@color/DarkSeaGreen</item>
+        <item name="SaddleBrown">@color/SaddleBrown</item>
+        <item name="DarkMagenta">@color/DarkMagenta</item>
+        <item name="DarkRed">@color/DarkRed</item>
+        <item name="BlueViolet">@color/BlueViolet</item>
+        <item name="LightSkyBlue">@color/LightSkyBlue</item>
+        <item name="SkyBlue">@color/SkyBlue</item>
+        <item name="Gray">@color/Gray</item>
+        <item name="Olive">@color/Olive</item>
+        <item name="Purple">@color/Purple</item>
+        <item name="Maroon">@color/Maroon</item>
+        <item name="Aquamarine">@color/Aquamarine</item>
+        <item name="Chartreuse">@color/Chartreuse</item>
+        <item name="LawnGreen">@color/LawnGreen</item>
+        <item name="MediumSlateBlue">@color/MediumSlateBlue</item>
+        <item name="LightSlateGray">@color/LightSlateGray</item>
+        <item name="SlateGray">@color/SlateGray</item>
+        <item name="OliveDrab">@color/OliveDrab</item>
+        <item name="SlateBlue">@color/SlateBlue</item>
+        <item name="DimGray">@color/DimGray</item>
+        <item name="MediumAquamarine">@color/MediumAquamarine</item>
+        <item name="CornflowerBlue">@color/CornflowerBlue</item>
+        <item name="CadetBlue">@color/CadetBlue</item>
+        <item name="DarkOliveGreen">@color/DarkOliveGreen</item>
+        <item name="Indigo">@color/Indigo</item>
+        <item name="MediumTurquoise">@color/MediumTurquoise</item>
+        <item name="DarkSlateBlue">@color/DarkSlateBlue</item>
+        <item name="SteelBlue">@color/SteelBlue</item>
+        <item name="RoyalBlue">@color/RoyalBlue</item>
+        <item name="Turquoise">@color/Turquoise</item>
+        <item name="MediumSeaGreen">@color/MediumSeaGreen</item>
+        <item name="LimeGreen">@color/LimeGreen</item>
+        <item name="DarkSlateGray">@color/DarkSlateGray</item>
+        <item name="SeaGreen">@color/SeaGreen</item>
+        <item name="ForestGreen">@color/ForestGreen</item>
+        <item name="LightSeaGreen">@color/LightSeaGreen</item>
+        <item name="DodgerBlue">@color/DodgerBlue</item>
+        <item name="MidnightBlue">@color/MidnightBlue</item>
+        <item name="Aqua">@color/Aqua</item>
+        <item name="Cyan">@color/Cyan</item>
+        <item name="SpringGreen">@color/SpringGreen</item>
+        <item name="Lime">@color/Lime</item>
+        <item name="MediumSpringGreen">@color/MediumSpringGreen</item>
+        <item name="DarkTurquoise">@color/DarkTurquoise</item>
+        <item name="DeepSkyBlue">@color/DeepSkyBlue</item>
+        <item name="DarkCyan">@color/DarkCyan</item>
+        <item name="Teal">@color/Teal</item>
+        <item name="Green">@color/Green</item>
+        <item name="DarkGreen">@color/DarkGreen</item>
+        <item name="Blue">@color/Blue</item>
+        <item name="MediumBlue">@color/MediumBlue</item>
+        <item name="DarkBlue">@color/DarkBlue</item>
+        <item name="Navy">@color/Navy</item>
+        <item name="Black">@color/Black</item>
+    </array>
+
+
+    //
+
+    <string name="Coral">#FF7F50</string>
+    <string name="HotPink">#FF69B4</string>
+    <string name="Tomato">#FF6347</string>
+    <string name="OrangeRed">#FF4500</string>
+    <string name="White">#FFFFFF</string>
+    <string name="DeepPink">#FF1493</string>
+    <string name="Fuchsia">#FF00FF</string>
+    <string name="Magenta">#FF00FF</string>
+    <string name="Red">#FF0000</string>
+    <string name="OldLace">#FDF5E6</string>
+    <string name="LightGoldenrodYellow">#FAFAD2</string>
+    <string name="Linen">#FAF0E6</string>
+    <string name="AntiqueWhite">#FAEBD7</string>
+    <string name="Salmon">#FA8072</string>
+    <string name="GhostWhite">#F8F8FF</string>
+    <string name="MintCream">#F5FFFA</string>
+    <string name="WhiteSmoke">#F5F5F5</string>
+    <string name="Beige">#F5F5DC</string>
+    <string name="Wheat">#F5DEB3</string>
+    <string name="SandyBrown">#F4A460</string>
+    <string name="Azure">#F0FFFF</string>
+    <string name="Honeydew">#F0FFF0</string>
+    <string name="AliceBlue">#F0F8FF</string>
+    <string name="Khaki">#F0E68C</string>
+    <string name="LightCoral">#F08080</string>
+    <string name="PaleGoldenrod">#EEE8AA</string>
+    <string name="Violet">#EE82EE</string>
+    <string name="DarkSalmon">#E9967A</string>
+    <string name="Lavender">#E6E6FA</string>
+    <string name="LightCyan">#E0FFFF</string>
+    <string name="BurlyWood">#DEB887</string>
+    <string name="Plum">#DDA0DD</string>
+    <string name="Gainsboro">#DCDCDC</string>
+    <string name="Crimson">#DC143C</string>
+    <string name="PaleVioletRed">#DB7093</string>
+    <string name="Goldenrod">#DAA520</string>
+    <string name="Orchid">#DA70D6</string>
+    <string name="Thistle">#D8BFD8</string>
+    <string name="LightGrey">#D3D3D3</string>
+    <string name="Tan">#D2B48C</string>
+    <string name="Chocolate">#D2691E</string>
+    <string name="Peru">#CD853F</string>
+    <string name="IndianRed">#CD5C5C</string>
+    <string name="MediumVioletRed">#C71585</string>
+    <string name="Silver">#C0C0C0</string>
+    <string name="DarkKhaki">#BDB76B</string>
+    <string name="RosyBrown">#BC8F8F</string>
+    <string name="MediumOrchid">#BA55D3</string>
+    <string name="DarkGoldenrod">#B8860B</string>
+    <string name="FireBrick">#B22222</string>
+    <string name="PowderBlue">#B0E0E6</string>
+    <string name="LightSteelBlue">#B0C4DE</string>
+    <string name="PaleTurquoise">#AFEEEE</string>
+    <string name="GreenYellow">#ADFF2F</string>
+    <string name="LightBlue">#ADD8E6</string>
+    <string name="DarkGray">#A9A9A9</string>
+    <string name="Brown">#A52A2A</string>
+    <string name="Sienna">#A0522D</string>
+    <string name="YellowGreen">#9ACD32</string>
+    <string name="DarkOrchid">#9932CC</string>
+    <string name="PaleGreen">#98FB98</string>
+    <string name="DarkViolet">#9400D3</string>
+    <string name="MediumPurple">#9370DB</string>
+    <string name="LightGreen">#90EE90</string>
+    <string name="DarkSeaGreen">#8FBC8F</string>
+    <string name="SaddleBrown">#8B4513</string>
+    <string name="DarkMagenta">#8B008B</string>
+    <string name="DarkRed">#8B0000</string>
+    <string name="BlueViolet">#8A2BE2</string>
+    <string name="LightSkyBlue">#87CEFA</string>
+    <string name="SkyBlue">#87CEEB</string>
+    <string name="Gray">#808080</string>
+    <string name="Olive">#808000</string>
+    <string name="Purple">#800080</string>
+    <string name="Maroon">#800000</string>
+    <string name="Aquamarine">#7FFFD4</string>
+    <string name="Chartreuse">#7FFF00</string>
+    <string name="LawnGreen">#7CFC00</string>
+    <string name="MediumSlateBlue">#7B68EE</string>
+    <string name="LightSlateGray">#778899</string>
+    <string name="SlateGray">#708090</string>
+    <string name="OliveDrab">#6B8E23</string>
+    <string name="SlateBlue">#6A5ACD</string>
+    <string name="DimGray">#696969</string>
+    <string name="MediumAquamarine">#66CDAA</string>
+    <string name="CornflowerBlue">#6495ED</string>
+    <string name="CadetBlue">#5F9EA0</string>
+    <string name="DarkOliveGreen">#556B2F</string>
+    <string name="Indigo">#4B0082</string>
+    <string name="MediumTurquoise">#48D1CC</string>
+    <string name="DarkSlateBlue">#483D8B</string>
+    <string name="SteelBlue">#4682B4</string>
+    <string name="RoyalBlue">#4169E1</string>
+    <string name="Turquoise">#40E0D0</string>
+    <string name="MediumSeaGreen">#3CB371</string>
+    <string name="LimeGreen">#32CD32</string>
+    <string name="DarkSlateGray">#2F4F4F</string>
+    <string name="SeaGreen">#2E8B57</string>
+    <string name="ForestGreen">#228B22</string>
+    <string name="LightSeaGreen">#20B2AA</string>
+    <string name="DodgerBlue">#1E90FF</string>
+    <string name="MidnightBlue">#191970</string>
+    <string name="Aqua">#00FFFF</string>
+    <string name="Cyan">#00FFFF</string>
+    <string name="SpringGreen">#00FF7F</string>
+    <string name="Lime">#00FF00</string>
+    <string name="MediumSpringGreen">#00FA9A</string>
+    <string name="DarkTurquoise">#00CED1</string>
+    <string name="DeepSkyBlue">#00BFFF</string>
+    <string name="DarkCyan">#008B8B</string>
+    <string name="Teal">#008080</string>
+    <string name="Green">#008000</string>
+    <string name="DarkGreen">#006400</string>
+    <string name="Blue">#0000FF</string>
+    <string name="MediumBlue">#0000CD</string>
+    <string name="DarkBlue">#00008B</string>
+    <string name="Navy">#000080</string>
+    <string name="Black">#000000</string>
+
+    <string-array name="colorCodes">
+        <!--<item name="White">@color/White</item>-->
+        <!--<item name="Ivory">@color/Ivory</item>-->
+        <!--<item name="LightYellow">@color/LightYellow</item>-->
+        <!--<item name="Yellow">@color/Yellow</item>-->
+        <!--<item name="Snow">@color/Snow</item>-->
+        <!--<item name="FloralWhite">@color/FloralWhite</item>-->
+        <!--<item name="LemonChiffon">@color/LemonChiffon</item>-->
+        <!--<item name="Cornsilk">@color/Cornsilk</item>-->
+        <!--<item name="Seashell">@color/Seashell</item>-->
+        <!--<item name="LavenderBlush">@color/LavenderBlush</item>-->
+        <!--<item name="PapayaWhip">@color/PapayaWhip</item>-->
+        <!--<item name="BlanchedAlmond">@color/BlanchedAlmond</item>-->
+        <!--<item name="MistyRose">@color/MistyRose</item>-->
+        <!--<item name="Bisque">@color/Bisque</item>-->
+        <!--<item name="Moccasin">@color/Moccasin</item>-->
+        <!--<item name="NavajoWhite">@color/NavajoWhite</item>-->
+        <!--<item name="PeachPuff">@color/PeachPuff</item>-->
+        <!--<item name="Gold">@color/Gold</item>-->
+        <!--<item name="Pink">@color/Pink</item>-->
+        <!--<item name="LightPink">@color/LightPink</item>-->
+        <!--<item name="Orange">@color/Orange</item>-->
+        <!--<item name="LightSalmon">@color/LightSalmon</item>-->
+        <!--<item name="DarkOrange">@color/DarkOrange</item>-->
+
+        <item name="Coral">@string/Coral</item>
+        <item name="HotPink">@string/HotPink</item>
+        <item name="Tomato">@string/Tomato</item>
+        <item name="OrangeRed">@string/OrangeRed</item>
+        <item name="White">@string/White</item>
+        <item name="DeepPink">@string/DeepPink</item>
+        <item name="Fuchsia">@string/Fuchsia</item>
+        <item name="Magenta">@string/Magenta</item>
+        <item name="Red">@string/Red</item>
+        <item name="OldLace">@string/OldLace</item>
+        <item name="LightGoldenrodYellow">@string/LightGoldenrodYellow</item>
+        <item name="Linen">@string/Linen</item>
+        <item name="AntiqueWhite">@string/AntiqueWhite</item>
+        <item name="Salmon">@string/Salmon</item>
+        <item name="GhostWhite">@string/GhostWhite</item>
+        <item name="MintCream">@string/MintCream</item>
+        <item name="WhiteSmoke">@string/WhiteSmoke</item>
+        <item name="Beige">@string/Beige</item>
+        <item name="Wheat">@string/Wheat</item>
+        <item name="SandyBrown">@string/SandyBrown</item>
+        <item name="Azure">@string/Azure</item>
+        <item name="Honeydew">@string/Honeydew</item>
+        <item name="AliceBlue">@string/AliceBlue</item>
+        <item name="Khaki">@string/Khaki</item>
+        <item name="LightCoral">@string/LightCoral</item>
+        <item name="PaleGoldenrod">@string/PaleGoldenrod</item>
+        <item name="Violet">@string/Violet</item>
+        <item name="DarkSalmon">@string/DarkSalmon</item>
+        <item name="Lavender">@string/Lavender</item>
+        <item name="LightCyan">@string/LightCyan</item>
+        <item name="BurlyWood">@string/BurlyWood</item>
+        <item name="Plum">@string/Plum</item>
+        <item name="Gainsboro">@string/Gainsboro</item>
+        <item name="Crimson">@string/Crimson</item>
+        <item name="PaleVioletRed">@string/PaleVioletRed</item>
+        <item name="Goldenrod">@string/Goldenrod</item>
+        <item name="Orchid">@string/Orchid</item>
+        <item name="Thistle">@string/Thistle</item>
+        <item name="LightGrey">@string/LightGrey</item>
+        <item name="Tan">@string/Tan</item>
+        <item name="Chocolate">@string/Chocolate</item>
+        <item name="Peru">@string/Peru</item>
+        <item name="IndianRed">@string/IndianRed</item>
+        <item name="MediumVioletRed">@string/MediumVioletRed</item>
+        <item name="Silver">@string/Silver</item>
+        <item name="DarkKhaki">@string/DarkKhaki</item>
+        <item name="RosyBrown">@string/RosyBrown</item>
+        <item name="MediumOrchid">@string/MediumOrchid</item>
+        <item name="DarkGoldenrod">@string/DarkGoldenrod</item>
+        <item name="FireBrick">@string/FireBrick</item>
+        <item name="PowderBlue">@string/PowderBlue</item>
+        <item name="LightSteelBlue">@string/LightSteelBlue</item>
+        <item name="PaleTurquoise">@string/PaleTurquoise</item>
+        <item name="GreenYellow">@string/GreenYellow</item>
+        <item name="LightBlue">@string/LightBlue</item>
+        <item name="DarkGray">@string/DarkGray</item>
+        <item name="Brown">@string/Brown</item>
+        <item name="Sienna">@string/Sienna</item>
+        <item name="YellowGreen">@string/YellowGreen</item>
+        <item name="DarkOrchid">@string/DarkOrchid</item>
+        <item name="PaleGreen">@string/PaleGreen</item>
+        <item name="DarkViolet">@string/DarkViolet</item>
+        <item name="MediumPurple">@string/MediumPurple</item>
+        <item name="LightGreen">@string/LightGreen</item>
+        <item name="DarkSeaGreen">@string/DarkSeaGreen</item>
+        <item name="SaddleBrown">@string/SaddleBrown</item>
+        <item name="DarkMagenta">@string/DarkMagenta</item>
+        <item name="DarkRed">@string/DarkRed</item>
+        <item name="BlueViolet">@string/BlueViolet</item>
+        <item name="LightSkyBlue">@string/LightSkyBlue</item>
+        <item name="SkyBlue">@string/SkyBlue</item>
+        <item name="Gray">@string/Gray</item>
+        <item name="Olive">@string/Olive</item>
+        <item name="Purple">@string/Purple</item>
+        <item name="Maroon">@string/Maroon</item>
+        <item name="Aquamarine">@string/Aquamarine</item>
+        <item name="Chartreuse">@string/Chartreuse</item>
+        <item name="LawnGreen">@string/LawnGreen</item>
+        <item name="MediumSlateBlue">@string/MediumSlateBlue</item>
+        <item name="LightSlateGray">@string/LightSlateGray</item>
+        <item name="SlateGray">@string/SlateGray</item>
+        <item name="OliveDrab">@string/OliveDrab</item>
+        <item name="SlateBlue">@string/SlateBlue</item>
+        <item name="DimGray">@string/DimGray</item>
+        <item name="MediumAquamarine">@string/MediumAquamarine</item>
+        <item name="CornflowerBlue">@string/CornflowerBlue</item>
+        <item name="CadetBlue">@string/CadetBlue</item>
+        <item name="DarkOliveGreen">@string/DarkOliveGreen</item>
+        <item name="Indigo">@string/Indigo</item>
+        <item name="MediumTurquoise">@string/MediumTurquoise</item>
+        <item name="DarkSlateBlue">@string/DarkSlateBlue</item>
+        <item name="SteelBlue">@string/SteelBlue</item>
+        <item name="RoyalBlue">@string/RoyalBlue</item>
+        <item name="Turquoise">@string/Turquoise</item>
+        <item name="MediumSeaGreen">@string/MediumSeaGreen</item>
+        <item name="LimeGreen">@string/LimeGreen</item>
+        <item name="DarkSlateGray">@string/DarkSlateGray</item>
+        <item name="SeaGreen">@string/SeaGreen</item>
+        <item name="ForestGreen">@string/ForestGreen</item>
+        <item name="LightSeaGreen">@string/LightSeaGreen</item>
+        <item name="DodgerBlue">@string/DodgerBlue</item>
+        <item name="MidnightBlue">@string/MidnightBlue</item>
+        <item name="Aqua">@string/Aqua</item>
+        <item name="Cyan">@string/Cyan</item>
+        <item name="SpringGreen">@string/SpringGreen</item>
+        <item name="Lime">@string/Lime</item>
+        <item name="MediumSpringGreen">@string/MediumSpringGreen</item>
+        <item name="DarkTurquoise">@string/DarkTurquoise</item>
+        <item name="DeepSkyBlue">@string/DeepSkyBlue</item>
+        <item name="DarkCyan">@string/DarkCyan</item>
+        <item name="Teal">@string/Teal</item>
+        <item name="Green">@string/Green</item>
+        <item name="DarkGreen">@string/DarkGreen</item>
+        <item name="Blue">@string/Blue</item>
+        <item name="MediumBlue">@string/MediumBlue</item>
+        <item name="DarkBlue">@string/DarkBlue</item>
+        <item name="Navy">@string/Navy</item>
+        <item name="Black">@string/Black</item>
+    </string-array>
+
+    <string-array name="colorNames">
+        <!--<item>White</item>-->
+        <!--<item>Ivory</item>-->
+        <!--<item>Light Yellow</item>-->
+        <!--<item>Yellow</item>-->
+        <!--<item>Snow</item>-->
+        <!--<item>Floral White</item>-->
+        <!--<item>Lemon Chiffon</item>-->
+        <!--<item>Cornsilk</item>-->
+        <!--<item>Seashell</item>-->
+        <!--<item>Lavender Blush</item>-->
+        <!--<item>Papaya Whip</item>-->
+        <!--<item>Blanched Almond</item>-->
+        <!--<item>Misty Rose</item>-->
+        <!--<item>Bisque</item>-->
+        <!--<item>Moccasin</item>-->
+        <!--<item>Navajo White</item>-->
+        <!--<item>Peach Puff</item>-->
+        <!--<item>Gold</item>-->
+        <!--<item>Pink</item>-->
+        <!--<item>Light Pink</item>-->
+        <!--<item>Orange</item>-->
+        <!--<item>Light Salmon</item>-->
+        <!--<item>Dark Orange</item>-->
+
+        <item>Coral</item>
+        <item>Hot Pink</item>
+        <item>Tomato</item>
+        <item>Orange Red</item>
+        <item>White</item>
+        <item>Deep Pink</item>
+        <item>Fuchsia</item>
+        <item>Magenta</item>
+        <item>Red</item>
+        <item>Old Lace</item>
+        <item>Light Goldenrod Yellow</item>
+        <item>Linen</item>
+        <item>Antique White</item>
+        <item>Salmon</item>
+        <item>Ghost White</item>
+        <item>Mint Cream</item>
+        <item>White Smoke</item>
+        <item>Beige</item>
+        <item>Wheat</item>
+        <item>Sandy Brown</item>
+        <item>Azure</item>
+        <item>Honeydew</item>
+        <item>Alice Blue</item>
+        <item>Khaki</item>
+        <item>Light Coral</item>
+        <item>Pale Goldenrod</item>
+        <item>Violet</item>
+        <item>Dark Salmon</item>
+        <item>Lavender</item>
+        <item>Light Cyan</item>
+        <item>Burly Wood</item>
+        <item>Plum</item>
+        <item>Gainsboro</item>
+        <item>Crimson</item>
+        <item>Pale Violet Red</item>
+        <item>Goldenrod</item>
+        <item>Orchid</item>
+        <item>Thistle</item>
+        <item>Light Grey</item>
+        <item>Tan</item>
+        <item>Chocolate</item>
+        <item>Peru</item>
+        <item>Indian Red</item>
+        <item>Medium Violet Red</item>
+        <item>Silver</item>
+        <item>Dark Khaki</item>
+        <item>Rosy Brown</item>
+        <item>Medium Orchid</item>
+        <item>Dark Goldenrod</item>
+        <item>Fire Brick</item>
+        <item>Powder Blue</item>
+        <item>Light Steel Blue</item>
+        <item>Pale Turquoise</item>
+        <item>Green Yellow</item>
+        <item>Light Blue</item>
+        <item>Dark Gray</item>
+        <item>Brown</item>
+        <item>Sienna</item>
+        <item>Yellow Green</item>
+        <item>Dark Orchid</item>
+        <item>Pale Green</item>
+        <item>Dark Violet</item>
+        <item>Medium Purple</item>
+        <item>Light Green</item>
+        <item>Dark Sea Green</item>
+        <item>Saddle Brown</item>
+        <item>Dark Magenta</item>
+        <item>Dark Red</item>
+        <item>Blue Violet</item>
+        <item>Light Sky Blue</item>
+        <item>Sky Blue</item>
+        <item>Gray</item>
+        <item>Olive</item>
+        <item>Purple</item>
+        <item>Maroon</item>
+        <item>Aquamarine</item>
+        <item>Chartreuse</item>
+        <item>Lawn Green</item>
+        <item>Medium Slate Blue</item>
+        <item>Light Slate Gray</item>
+        <item>Slate Gray</item>
+        <item>Olive Drab</item>
+        <item>Slate Blue</item>
+        <item>Dim Gray</item>
+        <item>Medium Aquamarine</item>
+        <item>Cornflower Blue</item>
+        <item>Cadet Blue</item>
+        <item>Dark Olive Green</item>
+        <item>Indigo</item>
+        <item>Medium Turquoise</item>
+        <item>Dark Slate Blue</item>
+        <item>Steel Blue</item>
+        <item>Royal Blue</item>
+        <item>Turquoise</item>
+        <item>Medium Sea Green</item>
+        <item>Lime Green</item>
+        <item>Dark Slate Gray</item>
+        <item>Sea Green</item>
+        <item>Forest Green</item>
+        <item>Light Sea Green</item>
+        <item>Dodger Blue</item>
+        <item>Midnight Blue</item>
+        <item>Aqua</item>
+        <item>Cyan</item>
+        <item>Spring Green</item>
+        <item>Lime</item>
+        <item>Medium Spring Green</item>
+        <item>Dark Turquoise</item>
+        <item>Deep Sky Blue</item>
+        <item>Dark Cyan</item>
+        <item>Teal</item>
+        <item>Green</item>
+        <item>Dark Green</item>
+        <item>Blue</item>
+        <item>Medium Blue</item>
+        <item>Dark Blue</item>
+        <item>Navy</item>
+        <item>Black</item>
+    </string-array>
+
+</resources>

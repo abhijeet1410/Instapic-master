@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="insta_pic_color_card_elevation">7dp</dimen>
+    <dimen name="dimen_collage_icon_size_28_dp">28dp</dimen>
+    <dimen name="insta_pic_footer_title_margin_top">5dp</dimen>
+</resources>

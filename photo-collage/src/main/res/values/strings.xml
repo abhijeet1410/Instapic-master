@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PhotoCollage</string>
+
+    <string name="admob_interstitial_id">ca-app-pub-1717332237216554/5448830122</string>
+    <string name="admob_banner_id">ca-app-pub-1717332237216554/1766527991</string>
+    <string name="title_grid_type_activity">Select Layout</string>
+
+    <string name="edit_your_photo"> Edit Your Photo</string>
+    <string name="alert_title_warning">Warning!</string>
+    <string name="alert_delete_description">You are about to delete this image. press continue to delete image or cancel to keep it.</string>
+    <string name="alert_desc_changes_will_be_lost">All your changes will be lost.</string>
+    <string name="alert_subtitle_press_exit_or_cancel">Press continue to exit or cancel to stay.</string>
+
+    <string name="desc_collage_frame">Collage Frame</string>
+    <string name="filter">Filter</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Multi Photo Picker</string>
+    <string name="pick_image_from_gallery">PICK IMAGE FROM GALLERY</string>
+    <string name="text_images">Next(%1$d)</string>
+    <string name="text_button_done">Done</string>
+    <string name="text_title_activity_album">Select photos</string>
+    <string name="text_title_dialog_sort_by_album">Sort album by</string>
+    <string name="text_title_dialog_sort_by_photo">Sort photo by</string>
+    <string name="action_sort">Sort</string>
+    <string name="todo">todo</string>
+
+    <string name="admob_app_id">ca-app-pub-1717332237216554~8855565979</string>
+
+    <!--
+         <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+         <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+-->
+
+    <string name="admob_banner_id">ca-app-pub-1717332237216554/4754321828</string>
+    <string name="admob_interstitial_id">ca-app-pub-1717332237216554/3796463374</string>
+</resources>

@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Selfie with All Celebrity</string>
+    <string name="contact_msg">All the images used under fair usage policy. If you have any concern please send email to harshitrkl@gmail.com</string>
+    <string name="my_creation">My Creation</string>
+
+    <string name="alert_title_warning">Warning!</string>
+    <string name="alert_delete_description">You are about to delete this image. press continue to delete image or cancel to keep it.</string>
+
+    <string name="edit_your_photo"> Edit Your Photo</string>
+    <string name="add_photo"> Add Photo</string>
+    <string name="kohali"> Celebrity</string>
+    <string name="effect"> Effect</string>
+    <string name="text"> Text</string>
+    <string name="stickers"> Stickers</string>
+
+    <string name="select_kohali"> Select Celebrity</string>
+    <string name="select_kohali_image"> Select Celebrity Image</string>
+    <string name="select_sticker"> Select Sticker</string>
+    <string name="album"> Album</string>
+    <string name="save_to_album"> Saved To Album</string>
+
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="album1">Album</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+    <string name="More">More</string>
+
+    <string name="stylish">Stylish</string>
+    <string name="love">Love</string>
+    <string name="animal">Animal</string>
+    <string name="cartoon">Cartoon</string>
+    <string name="emoticons">Emoticons</string>
+
+
+    <string name="label_sample">sample</string>
+    <string name="label_aspect_ratio">Aspect ratio</string>
+    <string name="label_dynamic">Dynamic</string>
+    <string name="label_image_source">Image source</string>
+    <string name="label_square">Square</string>
+    <string name="label_max_cropped_image_size">Max cropped image size</string>
+    <string name="label_compression_settings">Compression settings</string>
+    <string name="label_ui">UI</string>
+    <string name="label_width">Width</string>
+    <string name="label_height">Height</string>
+    <string name="label_resize_image_to_max_size">Resize image to max size</string>
+    <string name="label_hide_bottom_ui_controls">Hide bottom UI controls</string>
+    <string name="label_freestyle_crop">Freestyle crop</string>
+    <string name="label_select_picture">Select Picture</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_ok">OK</string>
+    <string name="notification_image_saved">Image saved</string>
+    <string name="notification_image_saved_click_to_preview">Image saved. Click to preview.</string>
+
+    <string name="menu_download">Download</string>
+
+    <string name="button_pick_amp_crop"><![CDATA[Pick & Crop]]></string>
+    <string name="button_crop_random_image">Crop random image</string>
+
+    <string name="description_cropped_image">Cropped image</string>
+
+    <string name="format_crop_result_d_d">Crop Result (%1$dx%2$d)</string>
+    <string name="format_quality_d">Quality: %d</string>
+    <string name="format_d_d_px">%1$dx%2$d px</string>
+
+    <string name="permission_title_rationale">Permission needed</string>
+    <string name="permission_read_storage_rationale">Storage read permission is needed to pick files.</string>
+    <string name="permission_write_storage_rationale">Storage write permission is needed to save the image.</string>
+
+    <string name="toast_cannot_retrieve_selected_image">Cannot retrieve selected image</string>
+    <string name="toast_cannot_retrieve_cropped_image">Cannot retrieve cropped image</string>
+    <string name="toast_unexpected_error">Unexpected error</string>
+
+    <string name="file_provider_authorities">com.yalantis.ucrop.provider</string>
+
+
+    <string name="selfie">Selfie</string>
+    <string name="photo_frame">Photo Frame</string>
+    <string name="pip">PIP</string>
+    <string name="shape">Shape</string>
+
+    <string name="admob_app_id">ca-app-pub-1717332237216554~8855565979</string>
+
+    <!--
+         <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+         <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+-->
+
+    <string name="admob_banner_id">ca-app-pub-1717332237216554/4754321828</string>
+    <string name="admob_interstitial_id">ca-app-pub-1717332237216554/3796463374</string>
+    <string name="todo">todo</string>
+    <string name="menu_item_my_saved_photos">My Saved Photos</string>
+    <string name="take_selfie_with_fav_celeb">Create selfie with you favourite Celebrity around the Globe.</string>
+    <string name="view_you_saved_selfie">View Your Saved Selfie. Share Your Creation with Friends and Family</string>
+    <string name="ad">Ad</string>
+    <string name="download_and_create_your_movie_in_seconds">Download and Create Your Movie in Seconds</string>
+    <string name="rate_this_app">Rate This App</string>
+    <string name="alert_desc_changes_will_be_lost">All your changes will be lost.</string>
+    <string name="alert_subtitle_press_exit_or_cancel">Press continue to exit or cancel to stay.</string>
+    <string name="title_grid_type_activity">Select Layout</string>
+    <string name="title_eraser">Eraser</string>
+    <string name="title_background">Background</string>
+    <string name="title_my_photo">My Photo</string>
+    <string name="title_filter">Filter</string>
+    <string name="app_name_2">Selfie with all Celebrity</string>
+
+</resources>

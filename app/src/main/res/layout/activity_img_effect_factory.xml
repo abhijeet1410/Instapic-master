@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <!--<include
+        layout="@layout/content_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/txtSkip"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:text="SKIP FILTER"
+                android:background="@drawable/skip_filter_bg"
+                android:textColor="@color/white" />
+
+            <View
+                android:background="@color/white"
+                android:layout_width="1dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/txtNext"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:text="NEXT"
+                android:background="@drawable/skip_filter_bg"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/llyMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <android.opengl.GLSurfaceView
+                android:id="@+id/effectsview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.crystal.crystalrangeseekbar.widgets.CrystalSeekbar
+        android:id="@+id/rangeSeekbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bar_color="@color/seekBarBg"
+        app:bar_highlight_color="@color/seekBarHint"
+        app:left_thumb_color="@color/seekBarHint"
+        app:left_thumb_color_pressed="@color/Red"
+        android:visibility="gone"/>
+
+        <SeekBar
+            android:id="@+id/sbProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/tallerBarStyle"
+            android:progress="0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.02"
+        android:id="@+id/hidden_rcview"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/black">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rc_filter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    tools:showIn="@layout/activity_collage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tbCollage"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            app:title="Set Image in Grid"
+            android:background="@color/appColor"/>
+
+        <ImageView
+            android:id="@+id/imgSave"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:contentDescription="@string/todo"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/save_btn_bg_2" />
+
+    </RelativeLayout>
+
+</android.support.design.widget.AppBarLayout>

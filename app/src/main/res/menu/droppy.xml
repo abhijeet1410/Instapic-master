@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.shehabic.droppy_samples.DefaultExampleActivity">
+    <group android:enabled="true">
+        <item
+            android:id="@+id/droppy1"
+            android:title="Xml Item 1"
+            android:icon="@drawable/fb_select"
+            />
+
+        <item
+            android:id="@+id/droppy2"
+            android:title="Xml Item 2"
+            android:icon="@drawable/whatsapp_bg"
+            />
+    </group>
+    <group android:enabled="true">
+        <item
+            android:id="@+id/droppy3"
+            android:icon="@drawable/hike_bg"
+            android:title="Xml Item 3"
+            />
+
+
+
+        <item
+            android:id="@+id/droppy4"
+            android:icon="@drawable/instagram_bg"
+            android:title="Xml Item 4"
+            />
+
+        <item
+            android:id="@+id/droppy5"
+            android:icon="@drawable/more_bg"
+            android:title="Xml Item 5"
+            />
+
+    </group>
+</menu>

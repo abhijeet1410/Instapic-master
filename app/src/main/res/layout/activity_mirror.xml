@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mirror.activities.MirrorActivity">
+    <include layout="@layout/layout_shapes_toolbar_view" />
+
+    <com.xiaopo.flying.sticker.StickerView
+        android:id="@+id/sticker_view"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:showBorder="false"
+        app:showIcons="false">
+
+        <LinearLayout
+            android:id="@+id/layoutHorizontal"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:id="@+id/mirrroLayout"
+                android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal">
+
+
+                <HorizontalScrollView
+                    android:layout_weight="1"
+                    android:overScrollMode="never"
+                    android:id="@+id/hsvMirror"
+                    android:scrollbars="none"
+                    android:nestedScrollingEnabled="false"
+                    android:measureAllChildren="false"
+                    android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:adjustViewBounds="true"
+                        android:layout_width="0dp"
+                        android:scaleX="1"
+                        android:scaleType="fitXY"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent" />
+                    <!--android:src="@drawable/katrina"-->
+
+                </HorizontalScrollView>
+
+                <HorizontalScrollView
+                    android:scaleX="-1"
+                    android:id="@+id/hsv2"
+                    android:overScrollMode="never"
+                    android:scrollbars="none"
+                    android:nestedScrollingEnabled="false"
+                    android:measureAllChildren="false"
+                    android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true">
+
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:id="@+id/img2"
+                        android:scaleType="fitXY"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:scaleX="1"
+                        android:layout_height="match_parent" />
+                    <!--android:src="@drawable/katrina"-->
+
+                </HorizontalScrollView>
+
+                <!-- </LinearLayout>
+             </ScrollView>-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:id="@+id/mirrroLayout2"
+                android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal">
+
+                <HorizontalScrollView
+                    android:overScrollMode="never"
+                    android:id="@+id/hsv3"
+                    android:scaleY="-1"
+                    android:scrollbars="none"
+                    android:nestedScrollingEnabled="false"
+                    android:measureAllChildren="false"
+                    android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true">
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:adjustViewBounds="true"
+                        android:layout_width="0dp"
+                        android:scaleX="1"
+                        android:scaleType="fitXY"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent" />
+                    <!--android:src="@drawable/katrina"-->
+
+                </HorizontalScrollView>
+
+                <HorizontalScrollView
+                    android:id="@+id/hsv4"
+                    android:scaleY="-1"
+                    android:overScrollMode="never"
+                    android:scrollbars="none"
+                    android:nestedScrollingEnabled="false"
+                    android:measureAllChildren="false"
+                    android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true">
+
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:id="@+id/img4"
+                        android:scaleType="fitXY"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:scaleX="1"
+                        android:layout_height="match_parent" />
+                    <!--android:src="@drawable/katrina"-->
+
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!-- vertical scroll view -->
+
+        <LinearLayout
+            android:id="@+id/layoutVertical"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_weight="1"
+                android:overScrollMode="never"
+                android:id="@+id/sv1"
+                android:scrollbars="none"
+                android:nestedScrollingEnabled="false"
+                android:measureAllChildren="false"
+                android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:id="@+id/mirror2Layout"
+                    android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal">
+
+                    <!--<ScrollView
+                        android:id="@+id/sv1"
+                        android:fitsSystemWindows="false"
+                        android:measureAllChildren="true"
+                        android:nestedScrollingEnabled="true"
+                        android:layout_width="0dp"
+                        android:fillViewport="false"
+                        android:layoutMode="opticalBounds"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">-->
+
+                    <ImageView
+                        android:id="@+id/img5"
+                        android:adjustViewBounds="true"
+                        android:layout_width="0dp"
+                        android:scaleX="1"
+                        android:scaleType="fitXY"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent" />
+                    <!--android:src="@drawable/katrina"-->
+
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:id="@+id/img6"
+                        android:scaleType="fitXY"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:scaleX="-1"
+                        android:layout_height="match_parent" />
+                    <!--android:src="@drawable/katrina"-->
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <ScrollView
+                android:layout_weight="1"
+                android:scaleY="-1"
+                android:overScrollMode="never"
+                android:id="@+id/sv2"
+                android:scrollbars="none"
+                android:nestedScrollingEnabled="false"
+                android:measureAllChildren="false"
+                android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:id="@+id/mirror3Layout"
+                    android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal">
+
+                    <!--<ScrollView
+                        android:id="@+id/sv1"
+                        android:fitsSystemWindows="false"
+                        android:measureAllChildren="true"
+                        android:nestedScrollingEnabled="true"
+                        android:layout_width="0dp"
+                        android:fillViewport="false"
+                        android:layoutMode="opticalBounds"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">-->
+
+                    <ImageView
+                        android:scaleY="-1"
+                        android:id="@+id/img7"
+                        android:adjustViewBounds="true"
+                        android:layout_width="0dp"
+                        android:scaleX="1"
+                        android:scaleType="fitXY"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent" />
+                    <!--android:src="@drawable/katrina"-->
+
+                    <ImageView
+                        android:scaleY="-1"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/img8"
+                        android:scaleType="fitXY"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:scaleX="-1"
+                        android:layout_height="match_parent" />
+                    <!--android:src="@drawable/katrina"-->
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+            <!-- </LinearLayout>
+         </ScrollView>-->
+
+        </LinearLayout>
+
+        <!-- <LinearLayout
+             android:visibility="gone"
+             android:layout_weight="1"
+             android:id="@+id/mirror3Layout"
+             android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:orientation="horizontal">
+
+             <HorizontalScrollView
+                 android:overScrollMode="ifContentScrolls"
+                 android:id="@+id/hsv3"
+                 android:scaleY="-1"
+                 android:scrollbars="none"
+                 android:nestedScrollingEnabled="false"
+                 android:measureAllChildren="false"
+                 android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:fillViewport="true">
+
+                 <ImageView
+                     android:id="@+id/img3"
+                     android:adjustViewBounds="true"
+                     android:layout_width="0dp"
+                     android:scaleX="1"
+                     android:src="@drawable/katrina"
+                     android:scaleType="fitXY"
+                     android:layout_weight="1"
+                     android:layout_height="match_parent" />
+
+             </HorizontalScrollView>
+
+             <HorizontalScrollView
+                 android:id="@+id/hsv4"
+                 android:scaleY="-1"
+                 android:overScrollMode="ifContentScrolls"
+                 android:scrollbars="none"
+                 android:nestedScrollingEnabled="false"
+                 android:measureAllChildren="false"
+                 android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                 android:layout_width="match_parent"
+                 android:layout_weight="1"
+                 android:layout_height="match_parent"
+                 android:fillViewport="true">
+
+                 <ImageView
+                     android:src="@drawable/katrina"
+                     android:adjustViewBounds="true"
+                     android:id="@+id/img4"
+                     android:scaleType="fitXY"
+                     android:layout_width="0dp"
+                     android:layout_weight="1"
+                     android:scaleX="1"
+                     android:layout_height="match_parent" />
+
+             </HorizontalScrollView>
+
+
+         </LinearLayout>-->
+
+        <!--</LinearLayout>-->
+
+    </com.xiaopo.flying.sticker.StickerView>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/mirrorBottom"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/mirror_recycler"
+            android:layout_height="50dp">
+
+        </android.support.v7.widget.RecyclerView>
+        <include
+            layout="@layout/layout_mirror_footer"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+
+        </include>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:scaleX="1"
+            android:scaleY="-1"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:layout_height="200dp" />
+        <!--android:src="@drawable/katrina"-->
+
+        <ImageView
+            android:scaleType="fitCenter"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:scaleX="-1"
+            android:scaleY="-1"
+            android:layout_height="200dp" />
+        <!--android:src="@drawable/katrina"-->
+
+    </LinearLayout>
+
+
+</LinearLayout>

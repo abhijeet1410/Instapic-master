@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical">
+    <!--tools:showIn="@layout/activity_collage"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/black"
+        android:padding="5dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/ivBackgroundCancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="28dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/sticker_ic_close_white_18dp"
+            android:layout_gravity="center_vertical" />
+        <!--android:background="@drawable/ripple_bg_black_96dp"-->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Background"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView
+            android:id="@+id/ivBackgroundSave"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="28dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/ic_done"
+            android:tint="@android:color/white" />
+        <!--android:background="@drawable/ripple_bg_black_96dp"-->
+
+    </LinearLayout>
+
+    <!--<HorizontalScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@android:color/white">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvColors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvPatterns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    <!--</HorizontalScrollView>-->
+
+</LinearLayout>
